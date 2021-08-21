@@ -28,10 +28,10 @@ For Each ws In Worksheets
     Dim Summary_Table_Row As Integer
     Summary_Table_Row = 2
     'Sets table headers'
-    Range("J1").Value = tHeader
-    Range("K1").Value = cHeader
-    Range("L1").Value = pHeader
-    Range("M1").Value = vHeader
+    ws.Range("J1").Value = tHeader
+    ws.Range("K1").Value = cHeader
+    ws.Range("L1").Value = pHeader
+    ws.Range("M1").Value = vHeader
 
    
   'Gets last row in sheet'
